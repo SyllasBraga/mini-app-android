@@ -5,10 +5,12 @@ build/
 # Local configuration file (sdk path, etc)
 local.properties
 
-# Log/OS Files
+# Log/OS files
 *.log
+.DS_Store
 
 # Android Studio generated files and folders
+.idea/
 captures/
 .externalNativeBuild/
 .cxx/
@@ -18,7 +20,6 @@ output-metadata.json
 
 # IntelliJ
 *.iml
-.idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
